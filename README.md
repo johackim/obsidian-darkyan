@@ -8,7 +8,7 @@ Obsidian-darkyan
 ## Installation
 
 ```bash
-cp obsidian.css <VAULT_DIRECTORY>/themes/Darkyan.css
+cp obsidian.css <VAULT_DIRECTORY>/.obsidian/themes/Darkyan.css
 ```
 
 ## License
