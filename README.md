@@ -4,6 +4,7 @@ Obsidian-darkyan
 > Obsidian theme
 
 ![Darkyan Obsidian Theme](screenshot.png)
+![Graph Viewer](screenshot2.png)
 
 ## Installation
 
