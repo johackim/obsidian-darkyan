@@ -33,10 +33,14 @@
 }
 
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight),
-.cm-s-obsidian pre.HyperMD-codeblock,
+.HyperMD-codeblock-bg,
 .theme-dark pre[class*="language-"],
 .markdown-preview-view code {
-    background-color: var(--pre-code);
+    background-color: var(--pre-code) !important;
+    color: var(--code-block) !important;
+}
+
+.cm-s-obsidian pre.HyperMD-codeblock {
     color: var(--code-block);
 }
 
