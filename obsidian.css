@@ -60,6 +60,32 @@
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTIuNCIgaGVpZ2h0PSIyOTIuNCI+PHBhdGggZmlsbD0iIzAwQUFBRCIgZD0iTTI4NyA2OS40YTE3LjYgMTcuNiAwIDAgMC0xMy01LjRIMTguNGMtNSAwLTkuMyAxLjgtMTIuOSA1LjRBMTcuNiAxNy42IDAgMCAwIDAgODIuMmMwIDUgMS44IDkuMyA1LjQgMTIuOWwxMjggMTI3LjljMy42IDMuNiA3LjggNS40IDEyLjggNS40czkuMi0xLjggMTIuOC01LjRMMjg3IDk1YzMuNS0zLjUgNS40LTcuOCA1LjQtMTIuOCAwLTUtMS45LTkuMi01LjUtMTIuOHoiLz48L3N2Zz4=);
 }
 
+.sync-status-icon.mod-success {
+    color: var(--text-accent);
+}
+
+.sync-status-icon.mod-error {
+    display: none;
+}
+
+.rss-feed-title img {
+    display: none;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+    padding-left: 4px;
+}
+
+.cm-builtin,
+.cm-number,
+.cm-string,
+.cm-property,
+.cm-attribute,
+.cm-tag,
 .cm-hmd-frontmatter.cm-string {
     color: var(--text-normal);
+}
+
+.ͼo:not(.cm-focused) .cm-fat-cursor {
+    outline: solid 1px var(--text-accent);
 }
