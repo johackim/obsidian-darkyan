@@ -76,6 +76,12 @@
     padding-left: 4px;
 }
 
+.token.function,
+.token.variable,
+.token.operator,
+.token.class-name,
+.token.string,
+.cm-operator,
 .cm-builtin,
 .cm-number,
 .cm-string,
@@ -88,4 +94,8 @@
 
 .ͼo:not(.cm-focused) .cm-fat-cursor {
     outline: solid 1px var(--text-accent);
+}
+
+.publish-upload-item:before {
+    background-color: var(--text-accent);
 }
