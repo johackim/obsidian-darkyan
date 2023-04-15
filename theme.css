@@ -30,6 +30,7 @@
     --background-modifier-border: #374151;
     --text-selection:             #374151;
     --text-faint:                 #4B5563;
+    --file-line-width:            750px;
 }
 
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight),
@@ -85,11 +86,13 @@
 .cm-builtin,
 .cm-number,
 .cm-string,
+.cm-string-2,
 .cm-property,
 .cm-keyword,
 .cm-attribute,
 .cm-tag,
-.cm-hmd-frontmatter.cm-string {
+.cm-hmd-frontmatter.cm-string,
+.cm-s-obsidian span.cm-error {
     color: var(--text-normal);
 }
 
@@ -99,4 +102,18 @@
 
 .publish-upload-item:before {
     background-color: var(--text-accent);
+}
+
+.publish-upload-item.mod-completed {
+    color: var(--text-normal);
+}
+
+.jl.popover {
+    background: var(--text-selection);
+    border-color: var(--text-selection);
+    color: var(--text-normal);
+}
+
+.wb-bookmark-manager-entry {
+    color: var(--text-normal);
 }
